@@ -45,8 +45,12 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         let tabbarVC = UITabBarController()
         UITabBar.appearance().tintColor = .systemOrange
         tabbarVC.viewControllers = [searchNC, favoritesNC]
-        
+        configureNavigationBar()
         return tabbarVC
+    }
+    
+    func configureNavigationBar() {
+        UINavigationBar.appearance().tintColor = .systemOrange
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {

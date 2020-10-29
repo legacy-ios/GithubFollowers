@@ -22,6 +22,7 @@ class GFButton: UIButton {
         super.init(frame: .zero)
         self.backgroundColor = backGroundColor
         self.setTitle(title, for: .normal)
+        configure()
     }
     
     private func configure() {
@@ -31,5 +32,4 @@ class GFButton: UIButton {
         translatesAutoresizingMaskIntoConstraints = false
     }
     
-
 }
