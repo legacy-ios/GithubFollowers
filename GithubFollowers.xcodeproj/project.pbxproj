@@ -9,19 +9,23 @@
 /* Begin PBXBuildFile section */
 		4B882AC3254A0AAF00C383B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B882AC2254A0AAF00C383B1 /* AppDelegate.swift */; };
 		4B882AC5254A0AAF00C383B1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B882AC4254A0AAF00C383B1 /* SceneDelegate.swift */; };
-		4B882AC7254A0AAF00C383B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B882AC6254A0AAF00C383B1 /* ViewController.swift */; };
 		4B882ACC254A0AB000C383B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B882ACB254A0AB000C383B1 /* Assets.xcassets */; };
 		4B882ACF254A0AB000C383B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B882ACD254A0AB000C383B1 /* LaunchScreen.storyboard */; };
+		4B882B00254A181A00C383B1 /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B882AFF254A181A00C383B1 /* SearchVC.swift */; };
+		4B882B03254A187700C383B1 /* FavoritesListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B882B02254A187700C383B1 /* FavoritesListVC.swift */; };
+		4B882B06254A21F200C383B1 /* GFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B882B05254A21F200C383B1 /* GFButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4B882ABF254A0AAF00C383B1 /* GithubFollowers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GithubFollowers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B882AC2254A0AAF00C383B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4B882AC4254A0AAF00C383B1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4B882AC6254A0AAF00C383B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4B882ACB254A0AB000C383B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B882ACE254A0AB000C383B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4B882AD0254A0AB000C383B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B882AFF254A181A00C383B1 /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
+		4B882B02254A187700C383B1 /* FavoritesListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesListVC.swift; sourceTree = "<group>"; };
+		4B882B05254A21F200C383B1 /* GFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +60,12 @@
 			children = (
 				4B882AC2254A0AAF00C383B1 /* AppDelegate.swift */,
 				4B882AC4254A0AAF00C383B1 /* SceneDelegate.swift */,
-				4B882AC6254A0AAF00C383B1 /* ViewController.swift */,
 				4B882ACB254A0AB000C383B1 /* Assets.xcassets */,
 				4B882ACD254A0AB000C383B1 /* LaunchScreen.storyboard */,
 				4B882AD0254A0AB000C383B1 /* Info.plist */,
+				4B882AFF254A181A00C383B1 /* SearchVC.swift */,
+				4B882B02254A187700C383B1 /* FavoritesListVC.swift */,
+				4B882B05254A21F200C383B1 /* GFButton.swift */,
 			);
 			path = GithubFollowers;
 			sourceTree = "<group>";
@@ -133,7 +139,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B882AC7254A0AAF00C383B1 /* ViewController.swift in Sources */,
+				4B882B03254A187700C383B1 /* FavoritesListVC.swift in Sources */,
+				4B882B06254A21F200C383B1 /* GFButton.swift in Sources */,
+				4B882B00254A181A00C383B1 /* SearchVC.swift in Sources */,
 				4B882AC3254A0AAF00C383B1 /* AppDelegate.swift in Sources */,
 				4B882AC5254A0AAF00C383B1 /* SceneDelegate.swift in Sources */,
 			);
