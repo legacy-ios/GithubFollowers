@@ -1,8 +1,8 @@
 //
-//  ErrorMessage.swift
+//  GFError.swift
 //  GithubFollowers
 //
-//  Created by Wooram Jung on 2020-10-29.
+//  Created by Wooram Jung on 2020-11-01.
 //
 
 import Foundation
